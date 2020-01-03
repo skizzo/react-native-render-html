@@ -66,8 +66,11 @@ export default class HTML extends PureComponent {
         textSelectable: PropTypes.bool,
         renderersProps: PropTypes.object,
         allowFontScaling: PropTypes.bool,
-        textBreakStrategy:
-            PropTypes.oneOf[("simple", "highQuality", "balanced")]
+        textBreakStrategy: PropTypes.oneOf([
+            "simple",
+            "highQuality",
+            "balanced"
+        ])
     };
 
     static defaultProps = {
